@@ -5,6 +5,7 @@ This LEGO mindstorms kit uses micropython as its os, so we can use rshell to con
 First thing to do is to open a terminal (I dont know how to do this on windows) or connect to it using SSH, personally using a raspberry 4b.
 
 ## Python 3
+[Get rshell](https://github.com/dhylands/rshell)
 ```bash
 pi@raspberrypi:~ $ python3 -m pip install rshell
 ```
@@ -36,6 +37,7 @@ Type "help()" for more information.
 
 We are done! now you have more control of your lego brick. Now you can manually import libraries and do usual micropython stuff.
 Beware, the brick only has 27.75 MB of flash so dont go ham. 
+[How i figured that out](https://www.geeksforgeeks.org/python-os-statvfs-method/)
 ```python
 >>> import os
 >>> storage = os.statvfs('/')
