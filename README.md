@@ -48,3 +48,9 @@ Beware, the brick only has 27.75 MB of flash so dont go ham.
 >>> print(storage[4] * storage[1] / 1024 / 1024) # in megs
 27.75
 ```
+
+A small test. I attached one of the included motors to the A port, and i want to move it.
+```python
+>>> hub.port.A.motor.run_to_position(0)
+>>> hub.port.A.motor.run_for_time(5000)
+```
