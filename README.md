@@ -19,7 +19,7 @@ pi@raspberrypi:~ $ rshell
 ```
 Make sure your device is plugged in via USB.
 Most times it will connect if it detects it but if it doesnt, exit the rshell and try these commands
-```bash
+```
 pi@raspberrypi:~ $ dmesg
 -snip-
 [ 3927.889850] usb 1-1.1: Product: LEGO Technic Large Hub in FS Mode
