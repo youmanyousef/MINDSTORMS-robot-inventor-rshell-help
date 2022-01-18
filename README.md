@@ -1,6 +1,7 @@
 # How to connect to your LEGO Mindstorms hub.
 This page is in progress, not complete. I will come by periodically to update some information.
 
+[Heres a more in-depth tutorial I found after I made this repo (oops)](https://github.com/gpdaniels/spike-prime)
 [Heres the full** documentation from LEGO](https://lego.github.io/MINDSTORMS-Robot-Inventor-hub-API/class_motor.html)
 
 This LEGO mindstorms kit uses micropython as its os, so we can use rshell to connect to it.
