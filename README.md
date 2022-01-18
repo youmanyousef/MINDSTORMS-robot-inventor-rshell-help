@@ -1,8 +1,12 @@
 # How to connect to your LEGO Mindstorms hub.
 This page is in progress, not complete. I will come by periodically to update some information.
 
+[Heres the full** documentation from LEGO](https://lego.github.io/MINDSTORMS-Robot-Inventor-hub-API/class_motor.html)
+
 This LEGO mindstorms kit uses micropython as its os, so we can use rshell to connect to it.
 First thing to do is to open a terminal (I dont know how to do this on windows) or connect to it using SSH, personally using a raspberry 4b.
+
+
 
 ## Python 3
 [Get rshell](https://github.com/dhylands/rshell)
