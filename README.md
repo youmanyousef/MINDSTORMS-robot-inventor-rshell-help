@@ -58,7 +58,7 @@ A small test. I attached one of the included motors to the A port, and i want to
 ```
 
 You can also just use GNU screen instead but it isn't so useful. Youll see some data from the hub and its 6 ports + the gyroscope data, Command break to get to the interpreter but this will break the functionality
-```bash
+```
 $ screen /dev/ttyACM0
 MicroPython v1.14-36-g377ea11 on 2022-11-01; LEGO Technic Large Hub with STM32F413xx
 Type "help()" for more information.
